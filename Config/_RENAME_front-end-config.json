@@ -1,0 +1,9 @@
+{
+    "startup_app": {
+        "block": "AppDashboard",
+        "app": "app_organizer",
+        "url_params": [
+
+        ]
+    }
+}
