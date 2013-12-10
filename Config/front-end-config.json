@@ -1,0 +1,9 @@
+{
+    "startup_app": {
+        "block": "MainBlock",
+        "app": "Homepage",
+        "url_params": [
+
+        ]
+    }
+}
