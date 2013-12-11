@@ -2,6 +2,14 @@
     "name": "TodoBlock",
     "token": "TodoBlock",
     "types": [
+        {
+            "model_name": "Task",
+            "collection_name": "Tasks",
+            "plural": "tasks",
+            "ws_origin": "/TodoBlock/Tasks",
+            "model_location": "/TodoBlock/Models/Task.js",
+            "collection_location": "/TodoBlock/Collections/Tasks.js"
+        }
     ],
     "apps": [
         {

@@ -1,0 +1,49 @@
+.todolist {
+  width: 800px;
+  margin: auto;
+
+  .tasks_list {
+
+  }
+
+  .task_widget {
+    padding: 5px;
+    margin: 3px;
+    background: rgba(255,255,255,0.5);
+
+    .check_button {
+      color: #d3d3d3;
+
+      &:hover {
+        color: gray;
+      }
+
+      &.done {
+        color: black;
+      }
+    }
+
+    .delete_link {
+      display: block;
+      float: right;
+      color: #d3d3d3;
+
+      &:hover {
+        color: gray;
+      }
+    }
+
+  }
+
+  .task_creation {
+    padding: 10px;
+    margin: 3px;
+    text-align: right;
+    background: rgba(255,255,255,0.5);
+    input {
+      padding: 5px;
+      border-radius:3px;
+      border: none;
+    }
+  }
+}
