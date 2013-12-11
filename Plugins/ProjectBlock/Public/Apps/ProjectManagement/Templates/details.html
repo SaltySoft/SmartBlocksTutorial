@@ -1,0 +1,18 @@
+<div class="header">
+    <h1><%= project.get('name') %></h1>
+    <a href="#ProjectManagement">Back to listing</a>
+</div>
+<div class="description">
+    <%= project.get('description') %>
+</div>
+
+<div class="tasks_list">
+
+</div>
+<div class="task_creation">
+    <label>
+        Create a task for this project
+    <input type="text" class="task_name_input" />
+    </label>
+    <a href="javascript:void(0);"><i class="fa fa-plus"></i></a>
+</div>

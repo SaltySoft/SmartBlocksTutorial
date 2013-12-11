@@ -39,7 +39,7 @@ class ProjectBusiness {
         if (isset($data['tasks']) && is_array($data['tasks'])) {
             $project->getTasks()->clear();
             foreach ($data['tasks'] as $tarray) {
-                $task = \TodoBlock\TaskBusiness::createOrUpdate($tarray);
+                $task = \TodoBlock\Business\TaskBusiness::createOrUpdate($tarray);
                 if (!$project->getTasks()->contains($task))
                     $project->getTasks()->add($task);
             }
