@@ -1,0 +1,19 @@
+<nav>
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#Todolist">Todolist</a>
+        </li>
+        <li>
+            <a href="#ProjectManagement">Project Management</a>
+        </li>
+        <% if (SmartBlocks.current_user.get('id')) { %>
+        <li>
+            <a href="javascript:void(0);" class="logout_button">Disconnect</a>
+        </li>
+        <% } %>
+    </ul>
+    <div class="clearer"></div>
+</nav>
