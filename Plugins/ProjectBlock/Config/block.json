@@ -1,0 +1,22 @@
+{
+    "name": "ProjectBlock",
+    "token": "ProjectBlock",
+    "types": [
+        {
+            "model_name": "Project",
+            "collection_name": "Projects",
+            "plural": "projects",
+            "ws_origin": "/Projectblock/Projects",
+            "model_location": "/ProjectBlock/Models/Project.js",
+            "collection_location": "/ProjectBlock/Collections/Projects.js"
+        }
+    ],
+    "apps": [
+        {
+            "name" : "ProjectManagement",
+            "token": "ProjectManagement",
+            "block_token": "ProjectBlock",
+            "entry_point": "launch_project_management"
+        }
+    ]
+}
