@@ -1,0 +1,14 @@
+{
+    "name": "TodoBlock",
+    "token": "TodoBlock",
+    "types": [
+    ],
+    "apps": [
+        {
+            "name" : "Todolist",
+            "token": "Todolist",
+            "block_token": "TodoBlock",
+            "entry_point": "launch_todolist"
+        }
+    ]
+}
