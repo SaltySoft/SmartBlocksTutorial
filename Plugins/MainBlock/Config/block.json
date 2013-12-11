@@ -1,0 +1,15 @@
+{
+    "name": "MainBlock",
+    "token": "MainBlock",
+    "types": [
+    ],
+    "apps": [
+        {
+            "name" : "Homepage",
+            "token": "Homepage",
+            "block_token": "MainBlock",
+            "entry_point": "launch_homepage",
+            "menu_ignore": true
+        }
+    ]
+}
